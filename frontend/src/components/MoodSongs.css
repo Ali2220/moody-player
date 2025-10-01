@@ -1,0 +1,54 @@
+.mood-songs {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.song-card {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 16px;
+  margin: 12px 0;
+  border: 1px solid #d0d7de;
+  box-shadow: 0 1px 3px rgba(27, 31, 35, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s ease;
+}
+
+.song-card:hover {
+  background: #f6f8fa;
+}
+
+.song-card h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #24292f;
+}
+
+.song-card p {
+  margin: 0;
+  color: #57606a;
+  font-size: 0.9rem;
+}
+
+.controls button {
+  background: #0969da; /* GitHub blue */
+  border: 1px solid #0969da;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.controls button:hover {
+  background: #0757c3;
+  transform: translateY(-1px);
+}
